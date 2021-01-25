@@ -1,0 +1,208 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <title>Food lover point.com </title>
+        <link rel="icon" type="image/ico" href="C:\Users\ALOK--PC\Pictures\HTML & CSS Project images\98017.png" />
+         <link href="style.css" rel="stylesheet" type="text/css">
+       <!-- <style> img:hover{ -webkit-transform: scaleX(-1); transform: scaleX(-1);} </style> -->
+        <center><img src="C:\Users\ALOK--PC\Pictures\Screenshots\Screenshot (61).png" width="350px" height="130px"></center>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<style>
+body {
+  margin: 0;
+  font-family:monospace;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover{
+  background-color: wheat;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+    
+    
+    
+    
+    
+    
+    
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ccffcc;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #e64d00;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}    
+
+    
+   #radius
+    {
+        border-radius: 80px;
+    }
+    
+    
+    
+    
+    
+</style>
+</head>
+<body background="C:\Users\ALOK--PC\Pictures\HTML & CSS Project images\background images.jpg">
+
+<div class="topnav">
+    div {
+  width: 45px;
+  height: 10px;
+  background-color: black;
+  margin: 6px 0;
+}
+    
+
+    
+    
+  <bottom><a href="file:///D:/My%20project/menucard3.html ">Home</a></bottom>
+    <a href="file:///D:/My%20project/Healthytips.html ">Healthy Tips</a>
+    
+    
+    <div class="dropdown">
+    <button class="dropbtn">Gallery
+      <i class="fa fa-caret-down"></i>
+    </button>
+         <div class="dropdown-content">
+    <a href="file:///D:/My%20project/vegfood.html"> Veg Food</a>
+      <a href="file:///D:/My%20project/Nonvegfood.html">Non-veg Food </a>
+    </div>
+  </div> 
+    
+    
+    
+     
+    
+    
+  <div class="topnav-right">
+     <form style="float:left;display:block;line-height:60px;padding-bottom:8px;">
+				<input type="text" name="searchbar" placeholder="Search here.." size="30">
+      </form>
+    <a href=" file:///D:/My%20project/aboutus.html">About Us</a>
+      <a href="file:///D:/My%20project/contactus.html "> Contact Us</a>
+      
+  </div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <marquee><p style="font-size: 30px; color: #ff0000"> <b><i> Food is not just eating energy. It's an experience.</i> </b></p></marquee>
+    
+    
+    <div>
+  <center> <img class="mySlides" src=" C:\Users\ALOK--PC\Pictures\Saved Pictures\Image\New folder\paneer-tikka.jpg" width="700" height="350" id="radius"></center>
+  <center> <img class="mySlides" src=" C:\Users\ALOK--PC\Pictures\Saved Pictures\Image\New folder\chicken-butter-625_625x350_51420696582.jpg" width="700" height="350" id="radius"></center>
+  <center> <img class="mySlides" src="C:\Users\ALOK--PC\Pictures\Saved Pictures\Image\New folder\2 (2).jpg " width="700" height="350" id="radius"></center>
+     <center> <img class="mySlides" src=" C:\Users\ALOK--PC\Pictures\HTML & CSS Project images\Veg food images\chole-bhutore.jpg " width="700" height="350" id="radius"></center>
+     <center> <img class="mySlides" src=" C:\Users\ALOK--PC\Pictures\Saved Pictures\Image\New folder\saag_625x350_51420779118.jpg" width="700" height="350" id="radius"></center>
+        
+
+  <center> <img class="mySlides" src=" C:\Users\ALOK--PC\Pictures\HTML & CSS Project images\Veg food images\litti-chokha.jpg" width="700" height="350" id="radius"></center>      
+        
+        
+        
+    <center> <img class="mySlides" src=" C:\Users\ALOK--PC\Pictures\HTML & CSS Project images\Veg food images\south indian foods\south indian no-veg foods\Hydrabadi biryani.webp" width="700" height="350" id="radius"></center>    
+        
+        
+        
+        
+        
+        
+        
+</div>
+<marquee><p style="font-size: 20px; color: #1a0000"> <b><i> From here you can get "best food" of your city Jalandhar.</i> </b></p></marquee>
+    
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+    
+    
+    </body>
+
+
+</html>
